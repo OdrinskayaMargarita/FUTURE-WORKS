@@ -1,0 +1,18 @@
+{# <div class="popup-feedback popup-feedback--visible"> #}
+
+<div class="popup-feedback">
+  <button class="popup-feedback__btn-close">
+    {# <img src="img/i-close.svg" alt=""> #}
+    {% include 'svg/_i-close.svg.twig' %}
+  </button>
+
+  <div class="popup-feedback__body">
+    
+    <form action="#" class="popup-feedback__form">
+      <input type="text" class="popup-feedback__input" placeholder="Full Name" required>
+      <input type="email" class="popup-feedback__input" placeholder="Email Address" required>
+      <input type="text" class="popup-feedback__input" placeholder="Company" required>
+      <button class="popup-feedback__btn" type="submit">Submit</button>
+    </form>
+  </div>
+</div>

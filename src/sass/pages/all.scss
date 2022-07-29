@@ -1,0 +1,28 @@
+@import "building";
+@import "contact";
+@import "availability";
+
+@import "pages";
+
+// general sections
+@import "box-news";
+
+// home page
+@import "home/hero";
+@import "home/home-b";
+@import "home/home-about";
+@import "home/pages-gallery";
+@import "home/news";
+
+@import "values/values-about";
+@import "values/smarter";
+@import "values/values-place";
+
+// connectivity page
+@import "connectivity";
+@import "why/why-about";
+@import "why/talent";
+@import "why/regeneration";
+
+
+@import "availability/floor";

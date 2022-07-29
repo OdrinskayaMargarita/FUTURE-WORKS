@@ -1,0 +1,33 @@
+{# no class - for light header; 'header--dark' -- for dark header #}
+{% set headerColors = {
+  'defaultPage': 'header--dark',
+  'pagesPage': 'header--dark',
+  'homePage': '',
+  'availabilityPage': 'header--dark',
+  'availabilityTwoPage': 'header--dark',
+  'availabilityThreePage': 'header--dark',
+  'erorPage': 'header--dark',
+  'termsPage': 'header--dark',
+  'buildingPage': ''
+} %}
+
+<header class="header {{ headerColors[pageName] }}" id="header">
+    <div class="header__dark-bg"></div>
+    <div class="header__container container wrapper">
+        <div class="header__left">
+            <a class="header__btn" href="contact.html">Contact</a>
+        </div>
+        <div class="header__center">
+            <a class="header__logo" href="home.html">
+                {% include 'img/_logo-full.twig' %}
+            </a>
+        </div>
+        <div class="header__right">
+            <button class="header__burger">
+                {% include 'img/_burger.twig' %}
+            </button>
+        </div>
+    </div>
+</header>
+
+{% include './_menu.twig' %}

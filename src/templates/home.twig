@@ -1,0 +1,19 @@
+---
+title: Home - Future Works
+description: Future Works description
+pageName: homePage
+---
+
+{% extends 'layouts/_page-default.twig' %}
+{% block content %}
+  <main>
+      {% include 'pages/home/_hero.twig' %}
+      <div class="section-hidden">
+          {% include 'pages/home/_news-box-before.twig' %}
+      </div>
+      {% include 'pages/home/_home-b.twig' %}
+      {% include 'pages/home/_home-about.twig' %}
+      {% include 'pages/home/_pages-gallery.twig' %}
+      {% include 'pages/home/_news.twig' %}
+  </main>
+{% endblock %}

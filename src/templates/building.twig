@@ -1,0 +1,29 @@
+---
+title: Building (Campus) - Future Works
+description: Future Works description
+pageName: buildingPage
+---
+
+{% extends 'layouts/_page-default.twig' %}
+{% block content %}
+  <main>
+
+    {% include 'pages/building/_banner-slider.twig' %}
+
+    <div class="section-hidden">
+
+      {% include 'pages/building/_about.twig' %}
+      {% include 'pages/building/_tabs.twig' %}
+      {% include 'pages/building/_preview.twig' %}
+      {% include 'pages/building/_news-boxes.twig' %}
+      {% include 'pages/building/_preview-img.twig' %}
+      {% include 'pages/building/_cards.twig' %}
+
+    </div>
+
+    {% include 'pages/building/_timeline.twig' %}
+    {% include 'pages/building/_banner-dark.twig' %}
+
+
+  </main>
+{% endblock %}

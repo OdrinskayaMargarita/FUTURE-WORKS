@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="469px" height="436px" viewBox="0 0 469 436" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Stacker</title>
+  <g id="Stacker" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g class="office-svg">
+      <path class="office-svg-path" d="M283,69.2444444 L283,131 L173,131 L173,113.056381 L283,69.2444444 Z M428,10.2888889 L428,80 L300,80 L300,61.0563812 L428,10.2888889 Z" id="Terrace" fill="#00FA83"></path>
+      <rect class="office-svg-path" id="8" fill="#00FA83" x="300" y="92" width="128" height="39"></rect>
+      <path class="office-svg-path" d="M156.842105,117 L156.842105,167 L37,167 L156.842105,117 Z M282.736842,140.661006 L282.736842,167 L172.736842,167 L172.736842,140.661006 L282.736842,140.661006 Z M428,140.661006 L428,167 L299.684211,167 L299.684211,140.661006 L428,140.661006 Z" id="7" fill="#00FA83"></path>
+      <path class="office-svg-path" d="M157,180 L157,207 L37,207 L37,180 L157,180 Z M283,180 L283,207 L173,207 L173,180 L283,180 Z M428,180 L428,207 L299,207 L299,180 L428,180 Z" id="6" fill="#00FA83"></path>
+      <path class="office-svg-path" d="M157,219 L157,247 L37,247 L37,219 L157,219 Z M283,219 L283,247 L173,247 L173,219 L283,219 Z M428,219 L428,247 L299,247 L299,219 L428,219 Z" id="5" fill="#00FA83"></path>
+      <path class="office-svg-path" d="M157,255 L157,282 L37,282 L37,255 L157,255 Z M283,255 L283,282 L173,282 L173,255 L283,255 Z M428,255 L428,282 L299,282 L299,255 L428,255 Z" id="4" fill="#00FA83"></path>
+      <path class="office-svg-path" d="M157,295 L157,322 L37,322 L37,295 L157,295 Z M283,295 L283,322 L173,322 L173,295 L283,295 Z M428,295 L428,322 L299,322 L299,295 L428,295 Z" id="3" fill="#00FA83"></path>
+      <path class="office-svg-path" d="M157,332 L157,361 L37,361 L37,332 L157,332 Z M283,332 L283,361 L173,361 L173,332 L283,332 Z M428,332 L428,361 L299,361 L299,332 L428,332 Z" id="2" fill="#00FA83"></path>
+      <path class="office-svg-path" d="M157.471649,371.811111 L157.471649,397.033333 L37.5,409.5 L37.5,371.811111 L157.471649,371.811111 Z M282.850515,371.811111 L282.850515,383.353051 L172.853093,395.244444 L172.853093,371.811111 L282.850515,371.811111 Z" id="1" fill="#00FA83"></path>
+      <polygon class="office-svg-path" id="G-(offices)" fill="#00FA83" points="288.435567 386.5 42.6260262 412.700714 42.6260262 434.5 288.435567 434.5"></polygon>
+    </g>
+    <g transform="translate(1.000000, 1.000000)" stroke="#1D1E1C">
+        <line x1="468" y1="433.788889" x2="1.41752577" y2="433.788889" id="Stroke-1" stroke-width="0.504"></line>
+        <polygon id="Stroke-3" stroke-width="0.504" points="298.773196 379.288889 426.902062 366.020788 426.902062 9.28888889 298.773196 60.171932"></polygon>
+        <polygon id="Stroke-4" stroke-width="0.504" points="281.850515 68.2444444 171.853093 112.121328 171.853093 394.244444 281.850515 382.353051"></polygon>
+        <polygon id="Stroke-5" stroke-width="0.504" points="287.435567 433.788889 287.435567 59.3444444 168.435567 107.669156 168.435567 398.455556 168.435567 433.788889"></polygon>
+        <polyline id="Stroke-6" stroke-width="0.504" points="295.876403 433.577778 295.876403 384.329248 295.876403 55.5586599 433.010309 0 433.010309 369.30397 31.0103093 412.879708 31.0103093 162.863306 161.356515 110.056712 161.356515 398.751244 161.356515 433.577778"></polyline>
+        <polygon id="Stroke-8" stroke-width="0.504" points="156.471649 116.477778 156.471649 395.556055 36.4716495 408.355556 36.4716495 166.018892"></polygon>
+        <line x1="426.902062" y1="78.9333333" x2="298.773196" y2="78.9333333" id="Stroke-9" stroke-width="0.504"></line>
+        <line x1="426.902062" y1="91.0444444" x2="298.773196" y2="91.0444444" id="Stroke-10" stroke-width="0.504"></line>
+        <line x1="426.902062" y1="129.8" x2="298.773196" y2="129.8" id="Stroke-11" stroke-width="0.504"></line>
+        <line x1="426.902062" y1="139.488889" x2="298.773196" y2="139.488889" id="Stroke-12" stroke-width="0.504"></line>
+        <line x1="426.902062" y1="166.133333" x2="298.773196" y2="166.133333" id="Stroke-13" stroke-width="0.504"></line>
+        <line x1="426.902062" y1="179.455556" x2="298.773196" y2="179.455556" id="Stroke-14" stroke-width="0.504"></line>
+        <line x1="426.902062" y1="206.1" x2="298.773196" y2="206.1" id="Stroke-15" stroke-width="0.504"></line>
+        <line x1="426.902062" y1="218.211111" x2="298.773196" y2="218.211111" id="Stroke-16" stroke-width="0.504"></line>
+        <line x1="426.902062" y1="246.066667" x2="298.773196" y2="246.066667" id="Stroke-17" stroke-width="0.504"></line>
+        <line x1="426.902062" y1="254.544444" x2="298.773196" y2="254.544444" id="Stroke-18" stroke-width="0.504"></line>
+        <line x1="426.902062" y1="281.188889" x2="298.773196" y2="281.188889" id="Stroke-19" stroke-width="0.504"></line>
+        <line x1="426.902062" y1="294.511111" x2="298.773196" y2="294.511111" id="Stroke-20" stroke-width="0.504"></line>
+        <line x1="426.902062" y1="321.155556" x2="298.773196" y2="321.155556" id="Stroke-21" stroke-width="0.504"></line>
+        <line x1="426.902062" y1="330.844444" x2="298.773196" y2="330.844444" id="Stroke-22" stroke-width="0.504"></line>
+        <line x1="281.850515" y1="129.8" x2="171.853093" y2="129.8" id="Stroke-23" stroke-width="0.468"></line>
+        <line x1="281.850515" y1="139.488889" x2="171.853093" y2="139.488889" id="Stroke-24" stroke-width="0.468"></line>
+        <line x1="281.850515" y1="166.133333" x2="171.853093" y2="166.133333" id="Stroke-25" stroke-width="0.468"></line>
+        <line x1="281.850515" y1="179.455556" x2="171.853093" y2="179.455556" id="Stroke-26" stroke-width="0.468"></line>
+        <line x1="281.850515" y1="206.1" x2="171.853093" y2="206.1" id="Stroke-27" stroke-width="0.468"></line>
+        <line x1="281.850515" y1="218.211111" x2="171.853093" y2="218.211111" id="Stroke-28" stroke-width="0.468"></line>
+        <line x1="281.850515" y1="246.066667" x2="171.853093" y2="246.066667" id="Stroke-29" stroke-width="0.468"></line>
+        <line x1="281.850515" y1="254.544444" x2="171.853093" y2="254.544444" id="Stroke-30" stroke-width="0.468"></line>
+        <line x1="281.850515" y1="281.188889" x2="171.853093" y2="281.188889" id="Stroke-31" stroke-width="0.468"></line>
+        <line x1="281.850515" y1="294.511111" x2="171.853093" y2="294.511111" id="Stroke-32" stroke-width="0.468"></line>
+        <line x1="281.850515" y1="321.155556" x2="171.853093" y2="321.155556" id="Stroke-33" stroke-width="0.468"></line>
+        <line x1="281.850515" y1="330.844444" x2="171.853093" y2="330.844444" id="Stroke-34" stroke-width="0.468"></line>
+        <line x1="281.850515" y1="359.911111" x2="171.853093" y2="359.911111" id="Stroke-35" stroke-width="0.468"></line>
+        <line x1="281.850515" y1="370.811111" x2="171.853093" y2="370.811111" id="Stroke-36" stroke-width="0.468"></line>
+        <line x1="156.139175" y1="359.911111" x2="36.4716495" y2="359.911111" id="Stroke-37" stroke-width="0.494"></line>
+        <line x1="156.139175" y1="370.811111" x2="36.4716495" y2="370.811111" id="Stroke-38" stroke-width="0.494"></line>
+        <line x1="426.902062" y1="359.911111" x2="298.773196" y2="359.911111" id="Stroke-39" stroke-width="0.504"></line>
+        <line x1="381.5" y1="370.5" x2="298.5" y2="370.5" id="Stroke-40" stroke-width="0.504"></line>
+        <line x1="156.139175" y1="166.133333" x2="36.4716495" y2="166.133333" id="Stroke-41" stroke-width="0.494"></line>
+        <line x1="156.5" y1="179.5" x2="36.5" y2="179.5" id="Stroke-42" stroke-width="0.494"></line>
+        <line x1="156.139175" y1="206.1" x2="36.4716495" y2="206.1" id="Stroke-43" stroke-width="0.494"></line>
+        <line x1="156.139175" y1="218.211111" x2="36.4716495" y2="218.211111" id="Stroke-44" stroke-width="0.494"></line>
+        <line x1="156.139175" y1="246.066667" x2="36.4716495" y2="246.066667" id="Stroke-45" stroke-width="0.494"></line>
+        <line x1="156.139175" y1="254.544444" x2="36.4716495" y2="254.544444" id="Stroke-46" stroke-width="0.494"></line>
+        <line x1="156.139175" y1="281.188889" x2="36.4716495" y2="281.188889" id="Stroke-47" stroke-width="0.494"></line>
+        <line x1="156.139175" y1="294.511111" x2="36.4716495" y2="294.511111" id="Stroke-48" stroke-width="0.494"></line>
+        <line x1="156.139175" y1="321.155556" x2="36.4716495" y2="321.155556" id="Stroke-49" stroke-width="0.494"></line>
+        <line x1="156.139175" y1="330.844444" x2="36.4716495" y2="330.844444" id="Stroke-50" stroke-width="0.494"></line>
+        <line x1="53.5" y1="410.5" x2="53.3943299" y2="434" id="Stroke-51" stroke-width="0.504"></line>
+        <line x1="53.5" y1="159.5" x2="53.5" y2="406.5" id="Stroke-53" stroke-width="0.504" stroke-linecap="square"></line>
+        <line x1="42.5" y1="163.5" x2="42.5" y2="407.5" id="Stroke-56" stroke-width="0.504"></line>
+        <line x1="81.1958763" y1="407.355556" x2="81.1958763" y2="434" id="Stroke-57" stroke-width="0.504"></line>
+        <line x1="81.5" y1="147.5" x2="81.1958763" y2="403.511111" id="Stroke-59" stroke-width="0.504"></line>
+        <line x1="65.5" y1="409.5" x2="65.4819588" y2="434" id="Stroke-60" stroke-width="0.504"></line>
+        <line x1="65.5" y1="154.5" x2="65.4819588" y2="404.933333" id="Stroke-62" stroke-width="0.504" stroke-linecap="square"></line>
+        <line x1="107.78866" y1="404.511111" x2="107.78866" y2="433.577778" id="Stroke-63" stroke-width="0.504"></line>
+        <line x1="107.5" y1="136.5" x2="107.5" y2="400.5" id="Stroke-65" stroke-width="0.504"></line>
+        <line x1="97.5" y1="405.5" x2="97.5" y2="433.5" id="Stroke-66" stroke-width="0.504"></line>
+        <line x1="97.5" y1="140.5" x2="97.9097938" y2="402.088889" id="Stroke-68" stroke-width="0.504"></line>
+        <line x1="137.5" y1="401.5" x2="137.5" y2="433.5" id="Stroke-69" stroke-width="0.504"></line>
+        <line x1="137.5" y1="124.5" x2="137.5" y2="397.5" id="Stroke-71" stroke-width="0.504"></line>
+        <line x1="124.502577" y1="402.511111" x2="124.502577" y2="434" id="Stroke-72" stroke-width="0.504"></line>
+        <line x1="124.5" y1="129.5" x2="124.5" y2="398.5" id="Stroke-74" stroke-width="0.504" stroke-linecap="square"></line>
+        <line x1="152.5" y1="399.5" x2="152.512887" y2="433.577778" id="Stroke-75" stroke-width="0.504"></line>
+        <line x1="152.5" y1="118.5" x2="152.512887" y2="396.033333" id="Stroke-77" stroke-width="0.504" stroke-linecap="square"></line>
+        <line x1="190.984536" y1="395.244444" x2="190.984536" y2="434" id="Stroke-78" stroke-width="0.504"></line>
+        <line x1="191.5" y1="104.5" x2="191.5" y2="392.5" id="Stroke-80" stroke-width="0.504"></line>
+        <line x1="179.10567" y1="109.211111" x2="179.710052" y2="433.577778" id="Stroke-83" stroke-width="0.504"></line>
+        <line x1="220.5" y1="392.5" x2="220.5" y2="433.5" id="Stroke-84" stroke-width="0.504"></line>
+        <line x1="220.5" y1="92.5" x2="220.5" y2="388.5" id="Stroke-86" stroke-width="0.504" stroke-linecap="square"></line>
+        <line x1="206.5" y1="393.5" x2="206.5" y2="433.5" id="Stroke-87" stroke-width="0.504"></line>
+        <line x1="206.5" y1="98.5" x2="206.5" y2="390.5" id="Stroke-89" stroke-width="0.504"></line>
+        <line x1="246.5" y1="389.5" x2="246.5" y2="433.5" id="Stroke-90" stroke-width="0.504"></line>
+        <line x1="246.5" y1="82.5" x2="246.5" y2="385.5" id="Stroke-92" stroke-width="0.504" stroke-linecap="square"></line>
+        <line x1="236.5" y1="390.5" x2="236.5" y2="433.5" id="Stroke-93" stroke-width="0.504"></line>
+        <line x1="236.5" y1="86.5" x2="236.5" y2="387.5" id="Stroke-95" stroke-width="0.504"></line>
+        <line x1="274.597938" y1="386.555556" x2="274.5" y2="433.5" id="Stroke-96" stroke-width="0.504"></line>
+        <line x1="274.5" y1="71.5" x2="274.5" y2="383.5" id="Stroke-98" stroke-width="0.504"></line>
+        <line x1="263.510309" y1="387.977778" x2="263.510309" y2="434" id="Stroke-99" stroke-width="0.504"></line>
+        <line x1="263.5" y1="75.5" x2="263.510309" y2="384.133333" id="Stroke-101" stroke-width="0.504"></line>
+        <line x1="320.530928" y1="381.711111" x2="320.5" y2="433.5" id="Stroke-102" stroke-width="0.504"></line>
+        <line x1="320.5" y1="51.5" x2="320.530928" y2="377.077778" id="Stroke-104" stroke-width="0.504" stroke-linecap="square"></line>
+        <line x1="304.5" y1="383.5" x2="304.5" y2="433.5" id="Stroke-105" stroke-width="0.504"></line>
+        <line x1="304.5" y1="58.5" x2="304.5" y2="378.5" id="Stroke-107" stroke-width="0.504" stroke-linecap="square"></line>
+        <line x1="349.541237" y1="378.288889" x2="349.541237" y2="434" id="Stroke-108" stroke-width="0.504"></line>
+        <line x1="349.5" y1="40.5" x2="349.541237" y2="374.233333" id="Stroke-110" stroke-width="0.504"></line>
+        <line x1="334.5" y1="380.5" x2="334.5" y2="433.5" id="Stroke-111" stroke-width="0.504" stroke-linecap="square"></line>
+        <line x1="334.5" y1="46.5" x2="334.5" y2="375.5" id="Stroke-113" stroke-width="0.504"></line>
+        <line x1="377.5" y1="375.5" x2="377.5" y2="433.5" id="Stroke-114" stroke-width="0.504"></line>
+        <line x1="376.5" y1="29.5" x2="376.5" y2="370.5" id="Stroke-116" stroke-width="0.504"></line>
+        <line x1="363.5" y1="376.5" x2="363.5" y2="433.5" id="Stroke-117" stroke-width="0.504"></line>
+        <line x1="363.5" y1="34.5" x2="363.5" y2="372.5" id="Stroke-119" stroke-width="0.504"></line>
+        <line x1="403.935567" y1="18.3777778" x2="403.935567" y2="368.388889" id="Stroke-122" stroke-width="0.504"></line>
+        <line x1="390.5" y1="23.5" x2="390.5" y2="369.5" id="Stroke-125" stroke-width="0.504"></line>
+        <line x1="413.60567" y1="372.022222" x2="413.60567" y2="432.577778" id="Stroke-126" stroke-width="0.504"></line>
+        <line x1="416.5" y1="13.5" x2="416.5" y2="366.5" id="Stroke-128" stroke-width="0.504"></line>
+        <polyline id="Stroke-136" stroke-width="1.5" points="466.582474 433.577778 413.647194 433.577778 413.647194 371.384643 432.845872 369.30397 432.845872 0 295.676816 55.5586599 295.676816 60.3508559 287.878113 63.1840086 287.878113 58.7161576 168.525871 107.058143 168.525871 112.207119 161.122448 114.861882 161.122448 110.056712 30.7428332 162.863306 30.7428332 412.879708 41.6260262 411.700714 41.6260262 433.577778 0 433.577778"></polyline>
+        <polygon id="Stroke-138" stroke-width="0.5" points="404.51231 433.577778 404.51231 372.373895 390.473348 373.865881 390.745508 433.577778"></polygon>
+    </g>
+  </g>
+</svg>

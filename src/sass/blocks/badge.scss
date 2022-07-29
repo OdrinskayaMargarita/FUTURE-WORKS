@@ -1,0 +1,19 @@
+.badge {
+  width: 104px;
+  height: 104px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 14px;
+  color: $white;
+  background-color: $accent-blue;
+  user-select: none;
+
+  @include md-down {
+    width: 63px;
+    height: 63px;
+    font-size: 11px;
+  }
+}

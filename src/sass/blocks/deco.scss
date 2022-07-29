@@ -1,0 +1,20 @@
+.deco {
+  position: relative;
+  opacity: 0;
+  user-select: none;
+  pointer-events: none;
+
+  &__img {
+    width: 100%;
+    display: block;
+    z-index: 2;
+    transform: rotate(10deg);
+
+    &--alt {
+      position: absolute;
+      top: 0;
+      transform: rotate(-10deg);
+      left: 0;
+    }
+  }
+}

@@ -1,0 +1,224 @@
+<div class="floor">
+  {# <div class="floor floor--visible"> #}
+  <div class="floor__header">
+    <div class="floor__buttons">
+      <div class="floor__button floor__button--active">Floorplan</div>
+      <div class="floor__button">Fitout</div>
+    </div>
+
+    <div class="floor__close">
+      <img src="img/i-close.svg" alt="" class="floor__close-icon">
+    </div>
+  </div>
+
+  <div class="floor__tabs">
+    <div class="floor__tab floor__tab--visible">
+      {# <div class="floor__tab"> #}
+      <div class="floor__cont">
+        <div class="floor__grid">
+          <div class="floor__info">
+
+            <div class="floor__select">
+              <div class="select">
+                <div class="select__box">
+                  <div class="select__current">G (Offices)</div>
+                  <div class="select__new-label"></div>
+                </div>
+                <img src="img/i-dropdown.svg" alt="" class="select__icon">
+
+                <div class="select__list">
+                  <div class="select__item" data-floor="G (Offices)">G (Offices)</div>
+                  <div class="select__item" data-floor="1">1st Floor</div>
+                  <div class="select__item" data-floor="2">2nd Floor</div>
+                  <div class="select__item" data-floor="3">3rd Floor</div>
+                  <div class="select__item" data-floor="4">4th Floor</div>
+                  <div class="select__item" data-floor="5">5th Floor</div>
+                  <div class="select__item" data-floor="6">6th Floor</div>
+                  <div class="select__item" data-floor="7">7th Floor</div>
+                  <div class="select__item" data-floor="8">8th Floor</div>
+                  <div class="select__item" data-floor="Terrace">Terrace</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="floor__text-slider">
+              <div class="floor__text-slider-w">
+                {% for i in range(1, 9) %}
+                  <div class="floor__text-slide">
+                    <div class="floor__text">
+                      <p>[{{ i }}] NET AREA (IPMS 3)</p>
+                      <p>1,374 SQ M / 14,789 SQ FT</p>
+                    </div>
+                  </div>
+                {% endfor %}
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="floor__gallery">
+            <div class="floor__slider">
+              <div class="floor__slider-wrapper">
+                <div class="floor__slide">
+                  <img src="img/floor-plan-1.png" alt="" class="floor__slide-image">
+                  {# 1 #}
+                </div>
+                <div class="floor__slide">
+                  <img src="img/floor-plan-2.png" alt="" class="floor__slide-image">
+                  {# 2 #}
+                </div>
+                <div class="floor__slide">
+                  <img src="img/floor-plan-1.png" alt="" class="floor__slide-image">
+                  {# 3 #}
+                </div>
+                <div class="floor__slide">
+                  <img src="img/floor-plan-2.png" alt="" class="floor__slide-image">
+                  {# 4 #}
+                </div>
+                <div class="floor__slide">
+                  <img src="img/floor-plan-1.png" alt="" class="floor__slide-image">
+                  {# 5 #}
+                </div>
+                <div class="floor__slide">
+                  <img src="img/floor-plan-2.png" alt="" class="floor__slide-image">
+                  {# 6 #}
+                </div>
+                <div class="floor__slide">
+                  <img src="img/floor-plan-1.png" alt="" class="floor__slide-image">
+                  {# 7 #}
+                </div>
+                <div class="floor__slide">
+                  <img src="img/floor-plan-2.png" alt="" class="floor__slide-image">
+                  {# 8 #}
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="floor__tab">
+      {# <div class="floor__tab  floor__tab--visible"> #}
+      <div class="floor__cont">
+        <div class="floor__grid">
+          <div class="floor__info">
+
+            <div class="floor__select">
+              <div class="select">
+                <div class="select__box">
+                  <div class="select__current">1st Floor</div>
+                  <div class="select__new-label"></div>
+                </div>
+                <img src="img/i-dropdown.svg" alt="" class="select__icon">
+
+                <div class="select__list">
+                  <div class="select__item" data-floor="1">1st Floor</div>
+                  <div class="select__item" data-floor="2">2nd Floor</div>
+                  <div class="select__item" data-floor="3">3rd Floor</div>
+                  <div class="select__item" data-floor="4">4th Floor</div>
+                  <div class="select__item" data-floor="5">5th Floor</div>
+                  <div class="select__item" data-floor="6">6th Floor</div>
+                  <div class="select__item" data-floor="7">7th Floor</div>
+                  <div class="select__item" data-floor="8">8th Floor</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="floor__text-slider">
+              <div class="floor__text-slider-w">
+                {% for i in range(1, 9) %}
+                  <div class="floor__text-slide">
+                    <div class="floor__specs">
+                      <div class="floor__spec">
+                        <div class="floor__spec-label">[{{ i }}] Occupancy</div>
+                        <div class="floor__spec-value">90 people</div>
+                      </div>
+                      <div class="floor__spec">
+                        <div class="floor__spec-label">Desk space</div>
+                        <div class="floor__spec-value">18</div>
+                      </div>
+                      <div class="floor__spec">
+                        <div class="floor__spec-label">Enclosed offices</div>
+                        <div class="floor__spec-value">32</div>
+                      </div>
+                      <div class="floor__spec">
+                        <div class="floor__spec-label">3-4 person meeting room</div>
+                        <div class="floor__spec-value">4</div>
+                      </div>
+                      <div class="floor__spec">
+                        <div class="floor__spec-label">12 person meeting room</div>
+                        <div class="floor__spec-value">1</div>
+                      </div>
+                      <div class="floor__spec">
+                        <div class="floor__spec-label">Quiet room</div>
+                        <div class="floor__spec-value">4</div>
+                      </div>
+                      <div class="floor__spec">
+                        <div class="floor__spec-label">Break out space</div>
+                        <div class="floor__spec-value">10</div>
+                      </div>
+                      <div class="floor__spec">
+                        <div class="floor__spec-label">Tea point</div>
+                        <div class="floor__spec-value">2</div>
+                      </div>
+                    </div>
+                  </div>
+                {% endfor %}
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="floor__gallery">
+            <div class="floor__slider">
+              <div class="floor__slider-wrapper">
+                <div class="floor__slide">
+                  <img src="img/floor-plan-2.png" alt="" class="floor__slide-image">
+                  {# 1 #}
+                </div>
+                <div class="floor__slide">
+                  <img src="img/floor-plan-1.png" alt="" class="floor__slide-image">
+                  {# 2 #}
+                </div>
+                <div class="floor__slide">
+                  <img src="img/floor-plan-2.png" alt="" class="floor__slide-image">
+                  {# 3 #}
+                </div>
+                <div class="floor__slide">
+                  <img src="img/floor-plan-1.png" alt="" class="floor__slide-image">
+                  {# 4 #}
+                </div>
+                <div class="floor__slide">
+                  <img src="img/floor-plan-2.png" alt="" class="floor__slide-image">
+                  {# 5 #}
+                </div>
+                <div class="floor__slide">
+                  <img src="img/floor-plan-1.png" alt="" class="floor__slide-image">
+                  {# 6 #}
+                </div>
+                <div class="floor__slide">
+                  <img src="img/floor-plan-2.png" alt="" class="floor__slide-image">
+                  {# 7 #}
+                </div>
+                <div class="floor__slide">
+                  <img src="img/floor-plan-1.png" alt="" class="floor__slide-image">
+                  {# 8 #}
+                </div>
+
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

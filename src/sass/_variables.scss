@@ -1,0 +1,56 @@
+//grid
+$grid-columns: 24;
+$grid-gutter-width: 10px;
+
+$xxs: 399px;
+$xs: 459px;
+$sm: 639px;
+$md: 767px;
+$lg: 1023px;
+$xl: 1199px;
+$xxl: 1399px;
+$x3l: 1769px;
+$x4l: 1999px;
+
+//fonts
+$font-1: Athletics, Helvetica, Tahoma, Arial, sans-serif;
+
+//colors
+$black: #000;
+$white: #fff;
+$dark: #191919;
+$text-gray: #636363;
+$accent-green: #00fa83;
+$accent-aqua: #0ed2fd;
+$accent-blue: #4e58f8;
+$color-sunglow: #fdca34;
+$color-cream-brulee: #ffe598;
+$color-egg-sour: #fff5d9;
+$color-black: #000000;
+$color-grey: #edefed;
+$color-grey--bg: #e6e8e6;
+$color-swiss-coffee: #dfdcdb;
+$color-hint-of-red: #fbfafa;
+$color-white: #ffffff;
+$color-mine-shaft: #212020;
+$color-boulder: #7a7a7a;
+$color-cod-gray: #191919;
+$color-jaffa: #f58b3c;
+
+// shadow
+$box-shadow-one: 0 8px 8px rgba(140, 140, 140, 0.15);
+
+// timing
+$time-sm: 300ms;
+$time-md: 500ms;
+$time-lg: 800ms;
+$time-xl: 1100ms;
+
+// wrapper
+$wrap-xl: 34px;
+$wrap-lg: 34px;
+$wrap-sm: 34px;
+
+// tags
+$h: 'h1, h2, h3, h4, h5, h6';
+$input-txt: 'input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="time"], input[type="week"], textarea';

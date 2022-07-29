@@ -1,0 +1,54 @@
+.values-place {
+  padding-top: 214px;
+  padding-bottom: 300px;
+  overflow: hidden;
+
+  @include md-down {
+    padding-top: 160px;
+    padding-bottom: 167px;
+  }
+
+  &__container {
+  }
+
+  &__title {
+    text-align: center;
+    margin-bottom: 30px;
+
+    @include md-down {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__text {
+    @extend .txt-md;
+
+    max-width: 760px;
+    margin: 0 auto;
+    text-align: center;
+
+    @include md-down {
+      
+    }
+  }
+
+  &__specs {
+    margin-top: 135px;
+    margin-bottom: 194px;
+
+    @include md-down {
+      margin-top: 82px;
+      margin-bottom: 85px;
+    }
+  }
+
+  .info__title {
+    @include md-down {
+      text-align: left;
+      padding: 0;
+    }
+  }
+  .info__text {
+    text-align: left;
+  }
+}

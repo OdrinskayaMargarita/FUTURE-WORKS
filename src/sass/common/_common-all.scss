@@ -1,0 +1,142 @@
+.full-section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 60px 0;
+  position: relative;
+  &_first {
+    padding-top: 240px;
+    padding-bottom: 180px;
+    @media (max-width: $lg) {
+      padding-top: 180px;
+    }
+    @media (max-width: 639px) {
+      padding-top: 145px;
+    }
+    &-center {
+      padding-top: 240px;
+      padding-bottom: 180px;
+    }
+    &-sm {
+      padding-top: 190px;
+      padding-bottom: 100px;
+      @media (max-width: $lg) {
+        padding-top: 180px;
+      }
+      @media (max-width: 639px) {
+        padding-top: 145px;
+        padding-bottom: 50px;
+      }
+    }
+  }
+}
+
+.cap-page {
+  margin-bottom: 63px;
+  >*+* {
+    margin-top: 27px;
+  }
+  @media (max-width: $lg) {
+    margin-bottom: 40px;
+  }
+  @media (max-width: $md) {
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  &_max-width {
+    max-width: 785px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+.txt-cntr {
+  text-align: center;
+  &__sm {
+    max-width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &__tt {
+    margin-bottom: 30px;
+    @media (max-width: $lg) {
+      margin-bottom: 40px;
+    }
+  }
+  p {
+    margin-bottom: 25px;
+  }
+  .btn {
+    margin-top: 35px;
+    @media (max-width: $lg) {
+      margin-top: 15px;
+    }
+  }
+}
+
+
+.error-page {
+  position: relative;
+
+  @include sm-down {
+    padding-top: 300px;
+  }
+
+  &__deco {
+    position: absolute;
+    top: 77%;
+    left: 0;
+    width: 553px;
+    z-index: -1;
+    user-select: none;
+    pointer-events: none;
+    transform: translate(-53%, -50%);
+
+    @include sm-down {
+      top: unset;
+      bottom: 0;
+      width: 600px;
+      transform: translate(-67%, 68%);
+    }
+  }
+  &__deco-right {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    display: none;
+    width: 600px;
+    z-index: -1;
+    user-select: none;
+    pointer-events: none;
+    transform: translate(98%, -82%);
+
+    @include sm-down {
+      display: block;
+    }
+  }
+  
+}
+.terms-page {
+  position: relative;
+
+  &__deco {
+    position: absolute;
+    top: 39%;
+    left: 0;
+    width: 390px;
+    z-index: -1;
+    user-select: none;
+    pointer-events: none;
+    transform: translate(-56%, -50%);
+
+    @include sm-down {
+      top: unset;
+      left: 50%;
+      bottom: 0;
+      width: 600px;
+      transform: translate(-50%, 68%);
+    }
+  }
+}

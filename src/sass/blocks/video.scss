@@ -1,0 +1,70 @@
+.video {
+  --plyr-video-control-color: #00fa83;
+  --plyr-video-control-background-hover: transparent;
+  --plyr-range-track-height: 4px;
+  --plyr-range-fill-background: $accent-green;
+  --plyr-range-thumb-background: transparent;
+  --plyr-range-thumb-shadow: none;
+  --plyr-video-progress-buffered-background: rgba(25,25,25, .55);
+  --plyr-progress-loading-background: rgba(25,25,25, .55);
+
+  $v: &;
+
+  position: relative;
+  cursor: pointer;
+
+  &__el {
+    
+  }
+  &__btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1em;
+    height: 1em;
+    transform: translate(-50%, -50%) scale(1);
+    z-index: 1;
+    background-color: $white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.24);
+    user-select: none;
+    z-index: 2;
+    pointer-events: none;
+    transition: opacity .3s, transform .3s;
+
+    @include md-down {
+      font-size: 64px;
+    }
+
+    #{$v}--playing & {
+      opacity: 0;
+      transform: translate(-50%, -50%) scale(.92);
+    }
+  }
+  &__icon {
+    transform: translateX(6%);
+
+    @include md-down {
+      width: 35px;
+    }
+  }
+
+  .plyr__controls {
+    transform: translateY(100%);
+  }
+
+  iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+  }
+
+  &--playing {
+
+    .plyr__controls {
+      transform: translateY(0);
+    }
+  }
+}

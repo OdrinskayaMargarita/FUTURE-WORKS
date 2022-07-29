@@ -1,0 +1,47 @@
+.ibox {
+  width: 100%;
+  
+  &__icon-wrapper {
+    margin-bottom: 10px;
+    height: 38px;
+    display: flex;
+    align-items: flex-end;
+    user-select: none;
+
+    @include md-down {
+      
+    }
+  }
+
+  &__icon,
+  &>svg,
+  &>img {
+    max-height: 100%;
+    width: auto;
+
+    @include md-down {
+      
+    }
+  }
+
+  &__label {
+    text-transform: uppercase;
+    max-width: 100px;
+    font-size: 12px;
+    line-height: (14/12);
+    letter-spacing: (0.5/12)+em;
+    font-weight: bold;
+    
+
+    @include md-down {
+      
+    }
+  }
+
+  &--centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}

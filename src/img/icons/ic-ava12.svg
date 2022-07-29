@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="27px" height="33px" viewBox="0 0 27 33" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="filter_1">
+      <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0 0 0 0 0 0.98039216 0 0 0 0 0.5137255 0 0 0 1 0" />
+    </filter>
+  </defs>
+  <g id="Group-31" filter="url(#filter_1)">
+    <path d="M0.0076 2.17143L1.07811 2.17143L1.07811 0L0.0076 0L0.0076 2.17143Z" transform="translate(17.914288 18.457144)" id="Fill-1" fill="#00FFB2" fill-rule="evenodd" stroke="none" />
+    <path d="M0.0076 2.17143L1.07811 2.17143L1.07811 0L0.0076 0L0.0076 2.17143Z" transform="translate(17.914288 21.714287)" id="Fill-2" fill="#00FFB2" fill-rule="evenodd" stroke="none" />
+    <path d="M0.0076 2.17143L1.07811 2.17143L1.07811 0L0.0076 0L0.0076 2.17143Z" transform="translate(17.914288 24.7)" id="Fill-3" fill="#00FFB2" fill-rule="evenodd" stroke="none" />
+    <path d="M0.00814286 2.17143L1.07757 2.17143L1.07757 0L0.00814286 0L0.00814286 2.17143Z" transform="translate(21.171429 16.285715)" id="Fill-4" fill="#00FFB2" fill-rule="evenodd" stroke="none" />
+    <path d="M0.00814286 2.17143L1.07757 2.17143L1.07757 0L0.00814286 0L0.00814286 2.17143Z" transform="translate(21.171429 19.542858)" id="Fill-5" fill="#00FFB2" fill-rule="evenodd" stroke="none" />
+    <path d="M0.00814286 2.17143L1.07757 2.17143L1.07757 0L0.00814286 0L0.00814286 2.17143Z" transform="translate(21.171429 22.800001)" id="Fill-6" fill="#00FFB2" fill-rule="evenodd" stroke="none" />
+    <path d="M0.00814286 2.17143L1.07757 2.17143L1.07757 0L0.00814286 0L0.00814286 2.17143Z" transform="translate(21.171429 26.057144)" id="Fill-7" fill="#00FFB2" fill-rule="evenodd" stroke="none" />
+    <path d="M0.0076 2.17143L1.07811 2.17143L1.07811 0L0.0076 0L0.0076 2.17143Z" transform="translate(14.657144 16.285715)" id="Fill-8" fill="#00FFB2" fill-rule="evenodd" stroke="none" />
+    <path d="M0.0076 2.17143L1.07811 2.17143L1.07811 0L0.0076 0L0.0076 2.17143Z" transform="translate(14.657144 19.542858)" id="Fill-9" fill="#00FFB2" fill-rule="evenodd" stroke="none" />
+    <path d="M0.0076 2.17143L1.07811 2.17143L1.07811 0L0.0076 0L0.0076 2.17143Z" transform="translate(14.657144 22.800001)" id="Fill-10" fill="#00FFB2" fill-rule="evenodd" stroke="none" />
+    <path d="M0.0076 2.17143L1.07811 2.17143L1.07811 0L0.0076 0L0.0076 2.17143Z" transform="translate(14.657144 26.057144)" id="Fill-11" fill="#00FFB2" fill-rule="evenodd" stroke="none" />
+    <path d="M25.5144 15.2001L26.6 15.2001L26.6 11.9432L21.1719 11.9432L21.1719 9.77191L20.0863 9.77191L20.0863 5.97105C20.0863 5.07186 19.357 4.34258 18.4578 4.34258L4.3425 4.34258L4.3425 3.25694L1.08562 3.25694L1.08562 0L0 0L0 11.9432L1.08562 11.9432L1.08562 8.68627L4.3425 8.68627L4.3425 7.59952L16.8283 7.59952L16.8283 9.77191L15.7427 9.77191L15.7427 11.9432L10.3145 11.9432L10.3145 15.2001L11.4002 15.2001L11.4002 17.3714L12.4858 17.3714L12.4858 15.2001L17.9139 15.2001L17.9139 17.3714L19.0006 17.3714L19.0006 15.2001L24.4288 15.2001L24.4288 17.3714L25.5144 17.3714L25.5144 15.2001ZM1.08562 7.59952L3.25687 7.59952L3.25687 4.34258L1.08562 4.34258L1.08562 7.59952ZM4.3425 6.51387L4.3425 5.42823L18.4578 5.42823C18.7568 5.42823 19.0006 5.67206 19.0006 5.97105L19.0006 9.77191L17.9139 9.77191L17.9139 6.51387L4.3425 6.51387ZM16.8283 11.9432L20.0852 11.9432L20.0852 10.8576L16.8283 10.8576L16.8283 11.9432ZM11.4002 14.1145L25.5144 14.1145L25.5144 13.0288L11.4002 13.0288L11.4002 14.1145Z" id="Fill-12" fill="#00FFB2" fill-rule="evenodd" stroke="none" />
+    <path d="M0.00814286 2.17143L1.07757 2.17143L1.07757 0L0.00814286 0L0.00814286 2.17143Z" transform="translate(24.428574 18.457144)" id="Fill-14" fill="#00FFB2" fill-rule="evenodd" stroke="none" />
+    <path d="M0.00814286 2.17143L1.07757 2.17143L1.07757 0L0.00814286 0L0.00814286 2.17143Z" transform="translate(24.428574 21.714287)" id="Fill-15" fill="#00FFB2" fill-rule="evenodd" stroke="none" />
+    <path d="M0.00814286 2.17143L1.07757 2.17143L1.07757 0L0.00814286 0L0.00814286 2.17143Z" transform="translate(24.428574 24.7)" id="Fill-16" fill="#00FFB2" fill-rule="evenodd" stroke="none" />
+    <path d="M0.00814286 2.17143L1.07757 2.17143L1.07757 0L0.00814286 0L0.00814286 2.17143Z" transform="translate(11.400001 18.457144)" id="Fill-17" fill="#00FFB2" fill-rule="evenodd" stroke="none" />
+    <path d="M0.00814286 2.17143L1.07757 2.17143L1.07757 0L0.00814286 0L0.00814286 2.17143Z" transform="translate(11.400001 21.714287)" id="Fill-18" fill="#00FFB2" fill-rule="evenodd" stroke="none" />
+    <path d="M0.00814286 2.17143L1.07757 2.17143L1.07757 0L0.00814286 0L0.00814286 2.17143Z" transform="translate(11.400001 24.7)" id="Fill-19" fill="#00FFB2" fill-rule="evenodd" stroke="none" />
+    <path d="M0.0076 2.17143L1.07811 2.17143L1.07811 0L0.0076 0L0.0076 2.17143Z" transform="translate(17.914288 28.228573)" id="Fill-20" fill="#00FFB2" fill-rule="evenodd" stroke="none" />
+    <path d="M0.00814286 2.17143L1.07757 2.17143L1.07757 0L0.00814286 0L0.00814286 2.17143Z" transform="translate(21.171429 29.314287)" id="Fill-21" fill="#00FFB2" fill-rule="evenodd" stroke="none" />
+    <path d="M0.0076 2.17143L1.07811 2.17143L1.07811 0L0.0076 0L0.0076 2.17143Z" transform="translate(14.657144 29.314287)" id="Fill-22" fill="#00FFB2" fill-rule="evenodd" stroke="none" />
+    <path d="M0.00814286 2.17143L1.07757 2.17143L1.07757 0L0.00814286 0L0.00814286 2.17143Z" transform="translate(24.428574 28.228573)" id="Fill-23" fill="#00FFB2" fill-rule="evenodd" stroke="none" />
+    <path d="M0.00814286 2.17143L1.07757 2.17143L1.07757 0L0.00814286 0L0.00814286 2.17143Z" transform="translate(11.400001 28.228573)" id="Fill-24" fill="#00FFB2" fill-rule="evenodd" stroke="none" />
+    <path d="M0.0076 1.07757L1.07811 1.07757L1.07811 0.00814286L0.0076 0.00814286L0.0076 1.07757Z" transform="translate(17.914288 31.485716)" id="Fill-25" fill="#00FFB2" fill-rule="evenodd" stroke="none" />
+    <path d="M0.00814286 1.07757L1.07757 1.07757L1.07757 0.00814286L0.00814286 0.00814286L0.00814286 1.07757Z" transform="translate(24.428574 31.485716)" id="Fill-26" fill="#00FFB2" fill-rule="evenodd" stroke="none" />
+    <path d="M0.00814286 1.07757L1.07757 1.07757L1.07757 0.00814286L0.00814286 0.00814286L0.00814286 1.07757Z" transform="translate(11.400001 31.485716)" id="Fill-27" fill="#00FFB2" fill-rule="evenodd" stroke="none" />
+    <path d="M0.00814286 2.17143L1.07757 2.17143L1.07757 0L0.00814286 0L0.00814286 2.17143Z" transform="translate(0 13.028572)" id="Fill-28" fill="#00FFB2" fill-rule="evenodd" stroke="none" />
+    <path d="M0.00814286 2.17143L1.07757 2.17143L1.07757 0L0.00814286 0L0.00814286 2.17143Z" transform="translate(0 16.285715)" id="Fill-29" fill="#00FFB2" fill-rule="evenodd" stroke="none" />
+    <path d="M0.00814286 13.0286L1.07757 13.0286L1.07757 0L0.00814286 0L0.00814286 13.0286Z" transform="translate(0 19.27143)" id="Fill-30" fill="#00FFB2" fill-rule="evenodd" stroke="none" />
+  </g>
+</svg>

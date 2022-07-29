@@ -1,0 +1,102 @@
+.home-b {
+  padding-top: 133px;
+  padding-bottom: 175px;
+  background-color: $color-grey;
+
+  @include md-down {
+    padding-top: 87px;
+    padding-bottom: 118px;
+  }
+
+  &__container {
+
+  }
+
+  &__title {
+    text-align: center;
+
+    @include md-down {
+      max-width: 280px;
+      margin-bottom: 43px;
+      margin-left: auto;
+      margin-right: auto;
+      // opacity: 0.1;
+    }
+
+    span {
+      color: $accent-green;
+    }
+  }
+
+  &__subtitle {
+    text-align: center;
+  }
+
+  &__figure {
+    position: relative;
+    margin-top: 115px;
+    margin-bottom: 95px;
+    user-select: none;
+
+    @include md-down {
+      margin-top: 70px;
+      margin-bottom: 70px;
+      margin-left: -34px;
+      margin-right: -34px;
+    }
+  }
+
+  &__image {
+    position: relative;
+    display: block;
+    width: 100%;
+    z-index: 2;
+
+    @include sm-down {
+      height: 63vw;
+      object-fit: cover;
+    } 
+  }
+
+  &__deco {
+    position: absolute;
+    bottom: -250px;
+    left: -250px;
+    z-index: 1;
+    width: 600px;
+
+    @include md-down {
+      width: 240px;
+      bottom: -10px;
+      left: -100px;
+    }
+    @include sm-down {
+      width: 260px;
+      bottom: -10px;
+      left: -100px;
+    }
+    
+
+  }
+
+  &__items {
+    @include row();
+
+    position: relative;
+    z-index: 2;
+  }
+
+  &__item {
+    @include col(8);
+
+    @include md-down {
+      @include col(24);
+
+      margin-bottom: 20px;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+.why-about {
+    padding-top: 30px;
+    padding-bottom: 154px;
+
+    @include md-down {
+      padding-top: 47px;
+      padding-bottom: 190px;
+    }
+
+  &__container {
+    @extend %cont;
+  }
+  &__grid {
+    @include row();
+  }
+
+  &__title {
+    @include col(24);
+
+    margin-bottom: 30px;
+    text-align: center;
+
+    @include md-down {
+      max-width: 280px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  &__text {
+    @include col(16);
+    @include offset(4);
+    @extend %text;
+
+    text-align: center;
+
+    @include md-down {
+      @include col(24);
+      @include offset(0);
+    }
+  }
+
+  &__partners {
+    @include col(20);
+    @include offset(2);
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 105px;
+
+    @include md-down {
+      @include col(24);
+      @include offset(0);
+
+      // padding: 0;
+
+      margin-top: 80px;
+    }
+  }
+
+  &__partner {
+    margin-bottom: 60px;
+    padding: 0 26px;
+    user-select: none;
+
+    @include md-down {
+      width: 27%;
+      margin-bottom: 31px;
+      padding: 0;
+      max-width: 135px;
+      min-width: 47px;
+
+      @include first(4) {
+        width: 25%;
+      }
+      &:nth-child(1) {
+        width: 22%;
+      }
+      &:nth-child(2) {
+        width: 12%;
+      }
+      &:nth-child(3) {
+        width: 18%;
+      }
+      &:nth-child(4) {
+        width: 20%;
+      }
+      
+    }
+  }
+
+  &__partner-logo {
+    opacity: 0.615;
+
+    @include md-down {
+      margin: 0 auto;
+    }
+  }
+}

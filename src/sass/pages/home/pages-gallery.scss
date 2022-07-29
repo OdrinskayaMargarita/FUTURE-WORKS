@@ -1,0 +1,94 @@
+.pages-gallery {
+  $pg: &;
+
+  position: relative;
+  padding-top: 168px;
+  padding-bottom: 185px;
+  z-index: 2;
+
+  @include md-down {
+    padding-top: 81px;
+    padding-bottom: 133px;
+  }
+
+  &__grid {
+    display: flex;
+    justify-content: space-between;
+
+    @include md-down {
+      flex-wrap: wrap;
+    }
+  }
+
+  &__item {
+    position: relative;
+    width: calc(50% - 5px);
+
+    @include md-down {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    &:last-of-type {
+
+      @include md-down {
+        margin-bottom: 0;
+      }
+    }
+
+    &:hover {
+
+      &:after {
+        opacity: 1;
+      }
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 2;
+      background-color: rgba($black, .6);
+      opacity: 0;
+      transition: opacity .3s;
+    }
+  }
+
+  &__item-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+  }
+
+  &__img {
+    display: block;
+    width: 100%;
+    max-height: 600px;
+    @include object-fit(cover);
+  }
+
+  &__item-title {
+    @extend %h3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: $white;
+    user-select: none;
+    transition: color .3s;
+    z-index: 3;
+    white-space: nowrap;
+    margin-bottom: 0;
+
+    #{$pg}__item:hover & {
+      color: $accent-green;
+    }
+  }
+}

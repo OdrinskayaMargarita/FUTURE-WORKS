@@ -1,0 +1,19 @@
+.home-about {
+  padding-top: 275px;
+  padding-bottom: 168px;
+  overflow: hidden;
+
+  @include md-down {
+    padding-top: 113px;
+    padding-bottom: 81px;
+  }
+
+  &__container {
+
+  }
+
+  &__block {
+    
+  }
+}
+

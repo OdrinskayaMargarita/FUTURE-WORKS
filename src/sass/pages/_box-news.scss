@@ -1,0 +1,220 @@
+.home-news-before {
+  margin-top: 200px;
+  margin-bottom: 227px;
+  @include sm-down {
+    margin-top: 80px;
+    margin-bottom: 176px;
+  }
+}
+
+.box-news {
+  display: grid;
+  grid-gap: 210px;
+  grid-template-columns: minmax(0, 1fr);
+
+  @media (max-width: $md) {
+    grid-gap: 130px;
+  }
+  &_push-bottom {
+    padding-bottom: 258px;
+    @media (max-width: $md) {
+      padding-bottom: 170px;
+    }
+  }
+}
+
+.bl-news {
+  display: grid;
+  grid-template-columns: 1.2fr minmax(460px, 1fr);
+  grid-gap: 9%;
+  align-items: center;
+  position: relative;
+  @media (max-width: $lg) {
+    grid-gap: 30px;
+    grid-template-columns: 1.2fr minmax(360px, 1fr);
+  }
+  @media (max-width: $md) {
+    grid-template-columns: 1fr;
+    grid-gap: 40px;
+  }
+  &__img {
+    height: 440px;
+    width: 100%;
+    min-width: 0;
+    // overflow: hidden;
+    position: relative;
+    .circle-btn {
+      position: absolute;
+      top: 13px;
+      left: 10px;
+      z-index: 2;
+      @media (max-width: $md) {
+        top: 5px;
+        left: 5px;
+      }
+    }
+    @media (max-width: $md) {
+      height: 270px;
+    }
+    @media (max-width: $xxs) {
+      height: 200px;
+    }
+    img, video, iframe, picture {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    &--auto {
+      height: auto;
+      img, video, iframe, picture {
+        width: auto;
+      }
+      .bl-news--sm-center & {
+        @include md-down {
+          img, video, iframe, picture {
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+  &__info {
+    &-wrap {
+      max-width: 425px;
+      margin-right: auto;
+    }
+    .bl-news--sm-center & {
+      @include md-down {
+        margin: 0 auto;
+        text-align: center;
+      }
+    }
+  }
+  &__icon {
+    margin-bottom: 40px;
+    @media (max-width: $lg) {
+      margin-bottom: 20px;
+    }
+    @media (max-width: $md) {
+      margin-bottom: 40px;
+      max-width: 65px;
+    }
+  }
+  &__tt {
+    margin-bottom: 30px;
+
+    // @include sm-down {
+    //   max-width: 240px;
+    //   margin: 0 auto;
+    // }
+    @media (max-width: $md) {
+      margin-bottom: 45px;
+    }
+  }
+  &__btn {
+    margin-top: 40px;
+  }
+  &_wrap {
+    grid-template-columns: minmax(460px, 1fr) 1.2fr;
+    @media (max-width: $lg) {
+      grid-gap: 30px;
+      grid-template-columns: minmax(360px, 1fr) 1.2fr;
+    }
+    @media (max-width: $md) {
+      grid-template-columns: 1fr;
+      grid-gap: 55px;
+    }
+    .bl-news__img {
+      order: 1;
+      @media (max-width: $md) {
+        order: 0;
+      }
+      &--sm-order-last {
+        @include md-down {
+          order: 2;
+        }
+      }
+    }
+    .bl-news__info-wrap {
+      margin-right: 0;
+      margin-left: auto;
+    }
+    .bl-news__tt {
+      span {
+        color: $accent-green;
+      }
+    }
+  }
+  @media (max-width: $md) {
+    &.bl-news_wrap_vert {
+      .bl-news__info {
+        order: -1;
+      }
+    }
+  }
+}
+
+.box-news__item {
+  position: relative;
+  width: 100%;
+}
+
+// .box-news__frames, .build-image__frames {
+.box-news__frames {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 360px;
+  z-index: -1;
+  transform: translate(-89%, -18%);
+  pointer-events: none;
+  user-select: none;
+
+  @include sm-down {
+    transform: translate(-68%, -2%);
+    width: 250px;
+  }
+
+  &--right {
+    top: 0;
+    right: 0;
+    width: 360px;
+    transform: translate(33%, -10%);
+
+    @include sm-down {
+      width: 250px;
+      transform: translate(39%, -10%);
+    }
+  }
+
+  &--bottom {
+    top: unset;
+    bottom: 0;
+    transform: translate(-89%, 13%);
+
+    @include sm-down {
+      width: 250px;
+      transform: translate(-80%, -2%);
+    }
+  }
+}
+
+.box-news__frames_home-1 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 250px;
+  z-index: -1;
+  transform: translate(-55%, 7%);
+  pointer-events: none;
+  user-select: none;
+
+  @include sm-down {
+    width: 320px;
+    transform: translate(25%, 7%);
+  }
+}

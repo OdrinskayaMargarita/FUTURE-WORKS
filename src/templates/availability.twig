@@ -1,0 +1,24 @@
+---
+title: Availability - Future Works
+description: Future Works description
+pageName: availabilityPage
+---
+
+{% extends 'layouts/_page-default.twig' %}
+{% block content %}
+  <main>
+    <div class="section-hidden wrapper">
+
+      {% include 'pages/availability/_value3.twig' %}
+      {% include 'pages/availability/_slider.twig' %}
+      {% include 'pages/availability/_bl-icons.twig' %}
+      {% include 'pages/availability/_office.twig' %}
+      {% include 'pages/availability/_accord.twig' %}
+      {% include 'pages/availability/_pagination.twig' %}
+
+    </div>
+    {% include 'pages/availability/_banner-dark.twig' %}
+  </main>
+
+  {% include 'pages/availability/_floor.twig' %}
+{% endblock %}
